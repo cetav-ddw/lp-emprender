@@ -1,0 +1,24 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+#wrapper-landingpage {
+  margin: 0px auto;
+  width: 1400px; }
+
+body {
+  padding: 1px; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,8 @@
+@mixin font-title ($font,$weight){
+    font-family: $font;
+    font-weight:$weight;
+}
+@mixin font-paragraph ($font,$weight){
+    font-family: $font;
+    font-weight:$weight;
+}
