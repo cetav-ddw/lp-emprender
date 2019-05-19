@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Quicksand", sans-serif;
+  src: url("../font/OFL.txt"); }
+html {
+  scroll-behavior: smooth; }
+
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+/*# sourceMappingURL=styles.css.map */
