@@ -1,8 +1,8 @@
 // HELPERS
-@import 'helpers/global';
-@import 'helpers/variables';
 @import 'helpers/fonts';
+@import 'helpers/variables';
 @import 'helpers/mixins';
+@import 'helpers/global';
 // PARTIALS
 @import 'partials/header/navigation';
 @import 'partials/header/content';

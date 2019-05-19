@@ -1,8 +1,4 @@
-@mixin font-title ($font,$weight){
-    font-family: $font;
-    font-weight:$weight;
-}
-@mixin font-paragraph ($font,$weight){
-    font-family: $font;
-    font-weight:$weight;
+@font-face{
+    font-family: "Quicksand", sans-serif;
+    src: url('../font/OFL.txt');
 }

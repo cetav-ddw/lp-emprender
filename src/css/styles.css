@@ -1,3 +1,6 @@
+@font-face {
+  font-family: "Quicksand", sans-serif;
+  src: url("../font/OFL.txt"); }
 html {
   scroll-behavior: smooth; }
 
@@ -13,12 +16,5 @@ ul {
 
 a {
   text-decoration: none; }
-
-#wrapper-landingpage {
-  margin: 0px auto;
-  width: 1400px; }
-
-body {
-  padding: 1px; }
 
 /*# sourceMappingURL=styles.css.map */
