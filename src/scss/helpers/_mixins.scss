@@ -1,3 +1,4 @@
-@mixin font-title ($font , $weight){
-    font: $font $weight;
+@mixin font-text ($font , $weight){
+    font-family: $font ;
+    font-weight: $weight;
 }

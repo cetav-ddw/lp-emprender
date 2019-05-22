@@ -1,0 +1,29 @@
+.navigation{
+    background-color: $color__orange--primary;
+    widows: 100%;
+}
+
+.navigation__nav-list{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    width: 1300px;
+}
+
+.nav-list__items{
+    margin-left: 60px;
+    padding: 10px;
+    transition: ease-in-out 0.5s;
+}
+
+.items__tab{
+    @include font-text($font__primary, bold);
+    &:hover{
+        color: $color__blue--primary;
+        transition: ease-in-out 0.5s;
+    }
+    color: $color__white;
+    font-size: 1rem;
+    text-transform: capitalize;
+    transition: ease-in-out 0.5s;
+}

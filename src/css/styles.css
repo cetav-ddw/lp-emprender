@@ -17,4 +17,443 @@ ul {
 a {
   text-decoration: none; }
 
+.navigation {
+  background-color: #ff8f00;
+  widows: 100%; }
+
+.navigation__nav-list {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+  width: 1300px; }
+
+.nav-list__items {
+  margin-left: 60px;
+  padding: 10px;
+  transition: ease-in-out 0.5s; }
+
+.items__tab {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+  text-transform: capitalize;
+  transition: ease-in-out 0.5s; }
+  .items__tab:hover {
+    color: #2a607e;
+    transition: ease-in-out 0.5s; }
+
+.section-header {
+  height: 95vh;
+  width: 100%; }
+
+.section-header__wrapper-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 30px 20px 60px  20px;
+  width: 1300px; }
+
+.wrapper-content__info-block {
+  width: 40%; }
+
+.info-block__title--main {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  color: #ff8f00;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 0px 0px 70px 0px;
+  text-transform: uppercase; }
+
+.info-block__title {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  color: #2a607e;
+  font-size: 2rem;
+  text-transform: lowercase; }
+  .info-block__title::first-letter {
+    text-transform: uppercase; }
+
+.info-block__title--color {
+  color: #ff8f00;
+  text-transform: uppercase; }
+
+.info-block__paragraph {
+  font-family: "Quicksand", sans-serif;
+  font-weight: normal;
+  color: #2a607e;
+  font-size: 1.3rem;
+  margin-bottom: 40px; }
+
+.info-block__chatbot-btn {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  background: #2a607e;
+  border: 0px;
+  border-radius: 10px;
+  box-shadow: -1px 2px 5px black;
+  color: white;
+  cursor: pointer;
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+  padding: 10px 30px;
+  transition: ease-in-out 0.5s; }
+  .info-block__chatbot-btn:hover {
+    box-shadow: 0px 0px 0px #2a607e;
+    color: #ff8f00;
+    transition: ease-in-out 0.5s; }
+
+.wrapper-assets__image {
+  display: block;
+  max-width: 50%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px 10px; }
+
+.section-header__arrow {
+  background: url("../img/flecha.png") no-repeat center center;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  padding: 60px;
+  width: 10%;
+  animation: animation__arrow 2.5s infinite ease-in-out; }
+
+@keyframes animation__arrow {
+  0% {
+    padding-top: 60px; }
+  50% {
+    padding-top: 30px; } }
+.section-main__wrapper-courses {
+  background: url("../img/forma2.svg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 110vh; }
+
+.wrapper-courses__free-benefits {
+  display: flex;
+  margin: 0 auto;
+  width: 1300px;
+  position: relative;
+  top: 25%; }
+
+.free-benefits__wrapper-gif {
+  width: 50%; }
+
+.wrapper-gif__gif {
+  max-width: 100%;
+  padding: 0px 70px; }
+
+.free-benefits__wrapper-content {
+  width: 50%; }
+
+.wrapper-content__title {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  color: #ff8f00;
+  font-size: 2rem;
+  text-transform: capitalize; }
+
+.wrapper-content__paragraph {
+  font-family: "Quicksand", sans-serif;
+  font-weight: normal;
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 40px; }
+
+.btn-ui {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  background: #ff8f00;
+  border: 0px;
+  border-radius: 10px;
+  box-shadow: -1px 2px 5px black;
+  color: white;
+  cursor: pointer;
+  color: white;
+  font-size: 1.4rem;
+  letter-spacing: 1.5px;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  transition: ease-in-out 0.5s; }
+  .btn-ui:hover {
+    box-shadow: 0px 0px 0px black;
+    color: #2a607e;
+    transition: ease-in-out 0.5s; }
+
+.section-main {
+  background-color: white; }
+
+.section-main__wrapper-main {
+  margin: 0 auto;
+  padding: 70px 20px 0px 20px;
+  width: 1300px; }
+
+.wrapper-main__title {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-weight: bold;
+  color: #ff8f00;
+  font-size: 2rem;
+  text-transform: capitalize; }
+
+.wrapper-main__paragraph {
+  font-family: "Quicksand", sans-serif;
+  font-weight: normal;
+  color: #2a607e;
+  font-size: 1.3rem;
+  margin-bottom: 80px;
+  width: 80%; }
+
+.wrapper-main__subtitle {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  color: #ff8f00;
+  font-size: 1.5rem;
+  margin-bottom: 70px;
+  text-align: center; }
+
+.wrapper-main__columns-content {
+  display: flex;
+  margin: 0px 0px 170px 0px; }
+
+.columns-content__guide-column {
+  border-right: 5px #ff8f00 solid;
+  padding: 0px 60px;
+  width: 50%; }
+
+.columns-content__services-column {
+  padding: 0px 60px;
+  width: 50%; }
+
+.column-icon-ui {
+  max-width: 20%;
+  position: relative;
+  right: 0;
+  left: 40%; }
+
+.column-title-ui {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  color: #ff8f00;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: capitalize; }
+
+.column-text-ui {
+  font-family: "Quicksand", sans-serif;
+  font-weight: normal;
+  color: #2a607e;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  text-align: center; }
+  .column-text-ui::first-letter {
+    text-transform: uppercase; }
+
+.section-programs-ui {
+  padding-top: 0px;
+  padding-bottom: 60px; }
+
+.title__programs {
+  text-align: center; }
+
+.paragraph__programs {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 100px; }
+
+.programs-ui {
+  display: flex;
+  margin: 30px 0px;
+  align-items: center; }
+
+.programs-ui__wrapper-description-ui {
+  width: 50%; }
+
+.programs-ui__wrapper-img-ui {
+  width: 50%; }
+
+.wrapper-image__image {
+  display: block;
+  margin: 0 auto;
+  max-width: 60%; }
+
+.wrapper-description__title {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ff8f00;
+  text-transform: capitalize; }
+
+.wrapper-description__paragraph {
+  font-family: "Quicksand", sans-serif;
+  font-weight: normal;
+  color: #2a607e;
+  font-size: 1.2rem;
+  margin-bottom: 30px; }
+
+.section-footer {
+  background: #ff8f00;
+  padding: 20px 20px; }
+
+.section-footer__wrapper-footer {
+  margin: 0 auto;
+  padding: 0px 30px;
+  width: 1300px; }
+
+.wrapper-footer__title {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  color: #2a607e;
+  font-size: 2.3rem;
+  margin: 20px 0px 40px 0px; }
+
+.wrapper-footer__wrapper-list {
+  display: flex; }
+
+.wrapper-list__list-tel {
+  margin: 0px 70px; }
+
+.wrapper-list__list-contact {
+  margin: 0px 70px; }
+
+.list-contact__items {
+  font-family: "Quicksand", sans-serif;
+  font-weight: normal;
+  color: white;
+  font-size: 1.1rem; }
+
+.list-contact__items--first {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2rem;
+  margin: 20px 0px;
+  text-transform: capitalize; }
+
+.list-tel__items {
+  font-family: "Quicksand", sans-serif;
+  font-weight: normal;
+  color: white;
+  font-size: 1.1rem; }
+
+.list-tel__items--first {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2rem;
+  margin: 20px 0px;
+  text-transform: capitalize; }
+
+.wrapper-list__image {
+  margin: 20px 90px; }
+
+/*chat*/
+.article-chatbot {
+  align-items: flex-end;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px 10px;
+  position: fixed;
+  right: 0; }
+
+.article-chatbot__chat-field {
+  background: white;
+  border: 0.5px #2a607e solid;
+  box-shadow: 2px 2px 10px #2a607e;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: space-between;
+  position: relative;
+  right: -40vw;
+  transition: ease-in-out 0.5s;
+  transform: scale(0);
+  opacity: 0;
+  width: 500px; }
+
+.chat-field__header-chat {
+  background: #2a607e;
+  display: flex;
+  justify-content: space-between; }
+
+.header-chat__paragraph {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  color: white;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  margin: 0; }
+
+.header-chat__btn-close {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  background: none;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 1.5rem;
+  opacity: 0.8;
+  padding: 0px  20px 10px 20px; }
+
+.article-chatbot__form-chat {
+  background: white;
+  border: 1px #2a607e solid;
+  border-radius: 20px;
+  display: flex;
+  margin: 10px 10px 10px 10px; }
+
+#chat-field__text-chat {
+  padding: 10px 20px 30px 20px;
+  overflow: auto; }
+  #chat-field__text-chat::-webkit-scrollbar {
+    width: 10px; }
+  #chat-field__text-chat::-webkit-scrollbar-thumb {
+    background-color: #ff8f00;
+    border-radius: 30px;
+    width: 10px; }
+  #chat-field__text-chat::-webkit-scrollbar-button {
+    display: none; }
+  #chat-field__text-chat::-webkit-scrollbar-corner {
+    background-color: black; }
+
+.form-chat__message-field {
+  background: none;
+  border: 0;
+  height: 40px;
+  margin: 10px 30px;
+  outline: none;
+  resize: none;
+  width: 100%; }
+  .form-chat__message-field::placeholder {
+    text-align: center;
+    padding-top: 10px; }
+
+.article-chatbot__bot-btn {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  height: 100px;
+  width: 100px; }
+
+.form-chat__input-send {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  background: #ff8f00;
+  border: 0px;
+  border-radius: 10px;
+  box-shadow: -1px 2px 5px black;
+  color: white;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+  height: 40px;
+  letter-spacing: 1.5px;
+  margin: 10px;
+  padding: 5px 15px;
+  text-transform: capitalize; }
+
 /*# sourceMappingURL=styles.css.map */

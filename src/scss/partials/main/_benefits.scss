@@ -1,0 +1,62 @@
+.section-main__wrapper-courses{
+		background: url('../img/forma2.svg') no-repeat;
+		background-size: cover;
+		background-position: center;
+		height: 110vh;
+}
+
+.wrapper-courses__free-benefits{
+		display: flex;
+		margin: 0 auto;
+		width: 1300px;
+		position: relative;
+		top: 25%;
+}
+
+.free-benefits__wrapper-gif{
+		width: 50%;
+}
+
+.wrapper-gif__gif{
+    max-width: 100%;
+    padding: 0px 70px;
+}
+
+.free-benefits__wrapper-content{
+    width: 50%;
+}
+
+.wrapper-content__title{
+    @include font-text($font__primary, bold);
+    color: $color__orange--primary;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.wrapper-content__paragraph{
+		@include font-text($font__primary, normal);
+		color: $color__white;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.btn-ui{
+    @include font-text($font__primary, bold);
+    &:hover{
+        box-shadow: 0px 0px 0px black;
+        color: $color__blue--primary;
+        transition: ease-in-out 0.5s;
+    }
+    background: $color__orange--primary;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: -1px 2px 5px black;
+    color: $color__white;
+    cursor: pointer;
+    color: $color__white;
+    font-size: 1.4rem;
+    letter-spacing: 1.5px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    transition: ease-in-out 0.5s;
+}
