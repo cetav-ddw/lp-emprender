@@ -1,62 +1,40 @@
-.section-footer{
-    background: $color__orange--primary;
-    padding: 20px 20px;
+.section-footer {
+    background: $color-orange;
+    padding: 20px;
 }
 
-.section-footer__wrapper-footer{
-    margin: 0 auto;
-    padding: 0px 30px;
+.section-footer__wrapper-footer {
+    margin: 0 auto; 
+    padding: 0 30px;
     width: 1300px;
 }
 
-.wrapper-footer__title{
-    @include font-text($font__primary, bold);
-    color: $color__blue--primary;
+.wrapper-footer__title {
+    color: $color-blue;
     font-size: 2.3rem;
-    margin: 20px 0px 40px 0px;
+    margin: 20px 0 40px;
 }
 
-.wrapper-footer__wrapper-list{
+.wrapper-footer__wrapper-list {
     display: flex;
 }
 
-.wrapper-list__list-tel{
-    margin: 0px 70px;
+.wrapper-list__list-contact {
+    margin: 0 70px;
 }
 
-
-.wrapper-list__list-contact{
-    margin: 0px 70px;
-}
-
-.list-contact__items{
-    @include font-text($font__primary, normal);
-    color: $color__white;
-    font-size: 1.1rem;
-}
-
-.list-contact__items--first{
-    @include font-text($font__primary, bold);
-    color: $color__white;
+.item-first {
+    color: $color-white;
     font-size: 1.2rem;
-    margin: 20px 0px;
+    margin: 20px 0;
     text-transform: capitalize;
 }
 
-.list-tel__items{
-    @include font-text($font__primary, normal);
-    color: $color__white;
-    font-size: 1.1rem;
+.list__items-ui {
+	color: $color-white;
+	font-size: 1.1rem;
 }
 
-.list-tel__items--first{
-    @include font-text($font__primary, bold);
-    color: $color__white;
-    font-size: 1.2rem;
-    margin: 20px 0px;
-    text-transform: capitalize;
-}
-
-.wrapper-list__image{
+.wrapper-list__image {
     margin: 20px 90px;
 }

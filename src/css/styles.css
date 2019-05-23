@@ -1,11 +1,15 @@
 @font-face {
-  font-family: "Quicksand", sans-serif;
-  src: url("../font/OFL.txt"); }
+  font-family: 'Roboto', sans-serif;
+  src: url("../font/Roboto-Bold.ttf"); }
+@font-face {
+  font-family: 'Roboto-normal', sans-serif;
+  src: url("../font/Roboto-Light.ttf"); }
 html {
   scroll-behavior: smooth; }
 
 body {
   background: #fff;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0; }
 
@@ -17,29 +21,24 @@ ul {
 a {
   text-decoration: none; }
 
-.navigation {
+.article-comeback {
   background-color: #ff8f00;
   widows: 100%; }
 
-.navigation__nav-list {
+.article-comeback__wrapper-comeback {
   display: flex;
   justify-content: flex-end;
   margin: 0 auto;
   width: 1300px; }
 
-.nav-list__items {
-  margin-left: 60px;
-  padding: 10px;
-  transition: ease-in-out 0.5s; }
-
-.items__tab {
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
+.wrapper-comeback__btn-comeback {
   color: white;
   font-size: 1rem;
   text-transform: capitalize;
-  transition: ease-in-out 0.5s; }
-  .items__tab:hover {
+  transition: ease-in-out 0.5s;
+  margin-left: 60px;
+  padding: 10px; }
+  .wrapper-comeback__btn-comeback:hover {
     color: #2a607e;
     transition: ease-in-out 0.5s; }
 
@@ -58,17 +57,13 @@ a {
   width: 40%; }
 
 .info-block__title--main {
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
   color: #ff8f00;
   font-size: 3.5rem;
-  font-weight: bold;
-  margin: 0px 0px 70px 0px;
+  margin: 0;
+  margin-bottom: 60px;
   text-transform: uppercase; }
 
 .info-block__title {
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
   color: #2a607e;
   font-size: 2rem;
   text-transform: lowercase; }
@@ -80,17 +75,13 @@ a {
   text-transform: uppercase; }
 
 .info-block__paragraph {
-  font-family: "Quicksand", sans-serif;
-  font-weight: normal;
   color: #2a607e;
   font-size: 1.3rem;
   margin-bottom: 40px; }
 
 .info-block__chatbot-btn {
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
   background: #2a607e;
-  border: 0px;
+  border: 0;
   border-radius: 10px;
   box-shadow: -1px 2px 5px black;
   color: white;
@@ -100,25 +91,25 @@ a {
   padding: 10px 30px;
   transition: ease-in-out 0.5s; }
   .info-block__chatbot-btn:hover {
-    box-shadow: 0px 0px 0px #2a607e;
+    box-shadow: 0 0 0 #2a607e;
     color: #ff8f00;
     transition: ease-in-out 0.5s; }
 
 .wrapper-assets__image {
   display: block;
-  max-width: 50%;
   height: auto;
+  max-width: 50%;
   margin: 0 auto;
   padding: 10px 10px; }
 
 .section-header__arrow {
+  animation: animation__arrow 2.5s infinite ease-in-out;
   background: url("../img/flecha.png") no-repeat center center;
   cursor: pointer;
   display: block;
   margin: 0 auto;
   padding: 60px;
-  width: 10%;
-  animation: animation__arrow 2.5s infinite ease-in-out; }
+  width: 10%; }
 
 @keyframes animation__arrow {
   0% {
@@ -134,51 +125,44 @@ a {
 .wrapper-courses__free-benefits {
   display: flex;
   margin: 0 auto;
-  width: 1300px;
   position: relative;
-  top: 25%; }
+  top: 25%;
+  width: 1300px; }
 
 .free-benefits__wrapper-gif {
   width: 50%; }
 
 .wrapper-gif__gif {
   max-width: 100%;
-  padding: 0px 70px; }
+  padding: 0 70px; }
 
 .free-benefits__wrapper-content {
   width: 50%; }
 
 .wrapper-content__title {
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
   color: #ff8f00;
   font-size: 2rem;
   text-transform: capitalize; }
 
 .wrapper-content__paragraph {
-  font-family: "Quicksand", sans-serif;
-  font-weight: normal;
   color: white;
   font-size: 1.2rem;
   margin-bottom: 40px; }
 
 .btn-ui {
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
   background: #ff8f00;
-  border: 0px;
+  border: 0;
   border-radius: 10px;
   box-shadow: -1px 2px 5px black;
   color: white;
   cursor: pointer;
-  color: white;
   font-size: 1.4rem;
   letter-spacing: 1.5px;
   padding: 10px 20px;
   text-transform: capitalize;
   transition: ease-in-out 0.5s; }
   .btn-ui:hover {
-    box-shadow: 0px 0px 0px black;
+    box-shadow: 0 0 0 black;
     color: #2a607e;
     transition: ease-in-out 0.5s; }
 
@@ -187,28 +171,21 @@ a {
 
 .section-main__wrapper-main {
   margin: 0 auto;
-  padding: 70px 20px 0px 20px;
+  padding: 70px 20px 0 20px;
   width: 1300px; }
 
 .wrapper-main__title {
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
-  font-weight: bold;
   color: #ff8f00;
   font-size: 2rem;
   text-transform: capitalize; }
 
 .wrapper-main__paragraph {
-  font-family: "Quicksand", sans-serif;
-  font-weight: normal;
   color: #2a607e;
   font-size: 1.3rem;
   margin-bottom: 80px;
   width: 80%; }
 
 .wrapper-main__subtitle {
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
   color: #ff8f00;
   font-size: 1.5rem;
   margin-bottom: 70px;
@@ -216,57 +193,54 @@ a {
 
 .wrapper-main__columns-content {
   display: flex;
-  margin: 0px 0px 170px 0px; }
+  margin: 0 0 170px 0; }
 
 .columns-content__guide-column {
   border-right: 5px #ff8f00 solid;
-  padding: 0px 60px;
+  padding: 0 60px;
   width: 50%; }
 
 .columns-content__services-column {
-  padding: 0px 60px;
+  padding: 0 60px;
   width: 50%; }
 
-.column-icon-ui {
+.column__icon-ui {
   max-width: 20%;
   position: relative;
   right: 0;
   left: 40%; }
 
-.column-title-ui {
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
+.column__title-ui {
   color: #ff8f00;
   font-size: 1.5rem;
   text-align: center;
   text-transform: capitalize; }
 
-.column-text-ui {
-  font-family: "Quicksand", sans-serif;
-  font-weight: normal;
+.column__text-ui {
   color: #2a607e;
   font-size: 1.2rem;
   text-transform: capitalize;
   text-align: center; }
-  .column-text-ui::first-letter {
+  .column__text-ui::first-letter {
     text-transform: uppercase; }
 
 .section-programs-ui {
-  padding-top: 0px;
+  padding-top: 0;
   padding-bottom: 60px; }
 
 .title__programs {
   text-align: center; }
 
 .paragraph__programs {
+  margin-bottom: 100px;
   text-align: center;
-  width: 100%;
-  margin-bottom: 100px; }
+  width: 100%; }
 
 .programs-ui {
+  align-items: center;
   display: flex;
-  margin: 30px 0px;
-  align-items: center; }
+  margin: 30px 0;
+  padding: 0 40px; }
 
 .programs-ui__wrapper-description-ui {
   width: 50%; }
@@ -280,76 +254,48 @@ a {
   max-width: 60%; }
 
 .wrapper-description__title {
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
-  font-size: 1.5rem;
   color: #ff8f00;
+  font-size: 1.5rem;
   text-transform: capitalize; }
 
 .wrapper-description__paragraph {
-  font-family: "Quicksand", sans-serif;
-  font-weight: normal;
   color: #2a607e;
   font-size: 1.2rem;
   margin-bottom: 30px; }
 
 .section-footer {
   background: #ff8f00;
-  padding: 20px 20px; }
+  padding: 20px; }
 
 .section-footer__wrapper-footer {
   margin: 0 auto;
-  padding: 0px 30px;
+  padding: 0 30px;
   width: 1300px; }
 
 .wrapper-footer__title {
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
   color: #2a607e;
   font-size: 2.3rem;
-  margin: 20px 0px 40px 0px; }
+  margin: 20px 0 40px; }
 
 .wrapper-footer__wrapper-list {
   display: flex; }
 
-.wrapper-list__list-tel {
-  margin: 0px 70px; }
-
 .wrapper-list__list-contact {
-  margin: 0px 70px; }
+  margin: 0 70px; }
 
-.list-contact__items {
-  font-family: "Quicksand", sans-serif;
-  font-weight: normal;
-  color: white;
-  font-size: 1.1rem; }
-
-.list-contact__items--first {
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
+.item-first {
   color: white;
   font-size: 1.2rem;
-  margin: 20px 0px;
+  margin: 20px 0;
   text-transform: capitalize; }
 
-.list-tel__items {
-  font-family: "Quicksand", sans-serif;
-  font-weight: normal;
+.list__items-ui {
   color: white;
   font-size: 1.1rem; }
-
-.list-tel__items--first {
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
-  color: white;
-  font-size: 1.2rem;
-  margin: 20px 0px;
-  text-transform: capitalize; }
 
 .wrapper-list__image {
   margin: 20px 90px; }
 
-/*chat*/
 .article-chatbot {
   align-items: flex-end;
   bottom: 0;
@@ -368,11 +314,11 @@ a {
   flex-direction: column;
   height: 400px;
   justify-content: space-between;
+  opacity: 0;
   position: relative;
   right: -40vw;
   transition: ease-in-out 0.5s;
   transform: scale(0);
-  opacity: 0;
   width: 500px; }
 
 .chat-field__header-chat {
@@ -381,23 +327,19 @@ a {
   justify-content: space-between; }
 
 .header-chat__paragraph {
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
   color: white;
-  padding: 10px 30px;
   font-size: 1.2rem;
-  margin: 0; }
+  margin: 0;
+  padding: 10px 30px; }
 
 .header-chat__btn-close {
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
   background: none;
   border: 0;
   color: white;
   cursor: pointer;
   font-size: 1.5rem;
   opacity: 0.8;
-  padding: 0px  20px 10px 20px; }
+  padding: 0 20px 10px 20px; }
 
 .article-chatbot__form-chat {
   background: white;
@@ -432,21 +374,16 @@ a {
     text-align: center;
     padding-top: 10px; }
 
-.article-chatbot__bot-btn {
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
+.article-chatbot__btn {
   cursor: pointer;
   height: 100px;
   width: 100px; }
 
-.form-chat__input-send {
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
+.form-chat__input {
   background: #ff8f00;
-  border: 0px;
+  border: 0;
   border-radius: 10px;
   box-shadow: -1px 2px 5px black;
-  color: white;
   cursor: pointer;
   color: white;
   font-size: 1rem;

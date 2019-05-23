@@ -1,29 +1,24 @@
-.navigation{
-    background-color: $color__orange--primary;
+.article-comeback {
+    background-color: $color-orange;
     widows: 100%;
 }
 
-.navigation__nav-list{
+.article-comeback__wrapper-comeback {
     display: flex;
     justify-content: flex-end;
     margin: 0 auto;
     width: 1300px;
 }
 
-.nav-list__items{
-    margin-left: 60px;
-    padding: 10px;
-    transition: ease-in-out 0.5s;
-}
-
-.items__tab{
-    @include font-text($font__primary, bold);
-    &:hover{
-        color: $color__blue--primary;
-        transition: ease-in-out 0.5s;
-    }
-    color: $color__white;
+.wrapper-comeback__btn-comeback {
+		color: $color-white;
     font-size: 1rem;
     text-transform: capitalize;
-    transition: ease-in-out 0.5s;
+		transition: ease-in-out 0.5s;
+		margin-left: 60px;
+    padding: 10px;
+		&:hover {
+			color: $color-blue;
+			transition: ease-in-out 0.5s;
+	}
 }

@@ -1,9 +1,9 @@
-.section-header{
+.section-header {
     height: 95vh;  
     width: 100%;
 }
 
-.section-header__wrapper-content{
+.section-header__wrapper-content {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -11,83 +11,79 @@
     width: 1300px;
 }
 
-.wrapper-content__info-block{
+.wrapper-content__info-block { 
     width: 40%;
 }
 
-.info-block__title--main{
-    @include font-text($font__primary, bold);
-		color: $color__orange--primary;
-    font-size: 3.5rem;
-		font-weight: bold;
-    margin:0px 0px 70px 0px;
+.info-block__title--main {
+    color: $color-orange;
+		font-size: 3.5rem;
+		margin: 0;
+    margin-bottom: 60px;
     text-transform: uppercase;
 }
 
-.info-block__title{
-    @include font-text($font__primary, bold);
-    &::first-letter{
-        text-transform: uppercase;
-    }
-    color: $color__blue--primary;
+.info-block__title {
+		color: $color-blue;
     font-size: 2rem;
-    text-transform: lowercase;
+		text-transform: lowercase;
+		&::first-letter {
+			text-transform: uppercase;
+		}
 }
 
-.info-block__title--color{
-		color: $color__orange--primary;
-		text-transform: uppercase;
+.info-block__title--color {
+		color: $color-orange;
+    text-transform: uppercase;
 }
 
-.info-block__paragraph{
-    @include font-text($font__primary, normal);
-		color: $color__blue--primary;
-    font-size: 1.3rem;
-    margin-bottom: 40px;
+.info-block__paragraph {
+		color: $color-blue;
+		font-size: 1.3rem;
+		margin-bottom: 40px;
 }
 
-.info-block__chatbot-btn{
-    @include font-text($font__primary, bold);
-    &:hover{
-        box-shadow: 0px 0px 0px $color__blue--primary;
-        color: $color__orange--primary;
-        transition: ease-in-out 0.5s;
-    }
-    background: $color__blue--primary;
-    border: 0px;
+.info-block__chatbot-btn {
+    background: $color-blue;
+    border: 0;
     border-radius: 10px;
     box-shadow: -1px 2px 5px black;
-    color: $color__white;
+    color: $color-white;
     cursor: pointer;
     font-size: 1.5rem;
     letter-spacing: 1.5px;
     padding: 10px 30px;
-    transition: ease-in-out 0.5s;
+		transition: ease-in-out 0.5s;
+		&:hover {
+			box-shadow: 0 0 0 $color-blue;
+			color: $color-orange;
+			transition: ease-in-out 0.5s;
+	}
 }
 
-.wrapper-assets__image{
-    display: block;
+.wrapper-assets__image {
+		display: block;
+		height: auto;
     max-width: 50%;
-    height: auto;
     margin: 0 auto;
     padding: 10px 10px;
 }
 
-.section-header__arrow{
+.section-header__arrow {
+		animation: animation__arrow 2.5s infinite ease-in-out;
     background: url('../img/flecha.png') no-repeat center center;
     cursor: pointer;
     display: block;
     margin: 0 auto;
     padding: 60px;
-    width: 10%;
-    animation: animation__arrow 2.5s infinite ease-in-out;
+		width: 10%;
 }
 
-@keyframes animation__arrow{
-    0%{
+@keyframes animation__arrow {
+    0% {
         padding-top: 60px;
     }
-    50%{
+    50% {
         padding-top: 30px;
     }
 }

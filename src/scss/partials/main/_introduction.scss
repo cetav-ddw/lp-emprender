@@ -1,0 +1,70 @@
+.section-main {
+    background-color: $color-white;
+}
+
+.section-main__wrapper-main {
+    margin: 0 auto;
+    padding: 70px 20px 0 20px;
+    width: 1300px;
+}
+
+.wrapper-main__title {
+		color: $color-orange;
+    font-size: 2rem;
+    text-transform:capitalize;
+}
+
+.wrapper-main__paragraph {
+    color: $color-blue;
+    font-size: 1.3rem;
+    margin-bottom: 80px;
+    width: 80%;
+}
+
+.wrapper-main__subtitle {
+    color: $color-orange;
+    font-size: 1.5rem;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.wrapper-main__columns-content {
+    display: flex;
+    margin: 0 0 170px 0;
+}
+
+.columns-content__guide-column {
+    border-right: 5px $color-orange solid;
+    padding: 0 60px;
+    width: 50%;
+}
+
+.columns-content__services-column {
+    padding: 0 60px;
+    width: 50%;
+}
+
+.column__icon-ui {
+    max-width: 20%;
+    position: relative;
+    right: 0;
+    left: 40%;
+}
+
+.column__title-ui {
+    color: $color-orange;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+.column__text-ui {
+		color: $color-blue;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+		text-align: center;
+		&::first-letter {
+			text-transform: uppercase;
+	}
+}
