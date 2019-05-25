@@ -1,89 +1,80 @@
-.section-header {
-    height: 95vh;  
-    width: 100%;
+.header {
+    height: 100vh;  
 }
 
-.section-header__wrapper-content {
+.wrapper-header {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
-    padding: 30px 20px 60px  20px;
-    width: 1300px;
+    padding: 40px 20px 0 20px;
 }
 
-.wrapper-content__info-block { 
+.info-block { 
+    background:$blue;
+    height: 300px;
+    opacity: 0.8;
+    padding: 20px 60px;
     width: 40%;
 }
 
-.info-block__title--main {
-    color: $color-orange;
-		font-size: 3.5rem;
-		margin: 0;
-    margin-bottom: 60px;
+.header__title {
+    color: $orange;
+    font-family: $font-primary;
+    font-size: 2.5rem;
+    margin: 0 auto;
     text-transform: uppercase;
+    padding-top: 10px;
+    width: 1300px;
 }
 
-.info-block__title {
-		color: $color-blue;
-    font-size: 2rem;
-		text-transform: lowercase;
-		&::first-letter {
-			text-transform: uppercase;
-		}
-}
+.info-block__subtitle {
+    color: $white;
+    font-size: 1.5rem;
+    text-transform: lowercase;
 
-.info-block__title--color {
-		color: $color-orange;
-    text-transform: uppercase;
+    &::first-letter {
+        text-transform: uppercase;
+    }
 }
 
 .info-block__paragraph {
-		color: $color-blue;
-		font-size: 1.3rem;
-		margin-bottom: 40px;
+    color: $white;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
 }
 
-.info-block__chatbot-btn {
-    background: $color-blue;
+.btn-ui {
+    background: $orange;
     border: 0;
-    border-radius: 10px;
-    box-shadow: -1px 2px 5px black;
-    color: $color-white;
+    border-radius: 8px;
+    box-shadow: -1px 0px 15px black;
+    color: $white;
     cursor: pointer;
     font-size: 1.5rem;
+    font-weight: bold;
     letter-spacing: 1.5px;
     padding: 10px 30px;
-		transition: ease-in-out 0.5s;
-		&:hover {
-			box-shadow: 0 0 0 $color-blue;
-			color: $color-orange;
-			transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.5s;
+
+    &:hover {
+        box-shadow: 0 0 0 $blue;
+        color: $blue;
+        transition: ease-in-out 0.5s;
 	}
 }
 
-.wrapper-assets__image {
-		display: block;
-		height: auto;
+.wrapper-illustration__image {
+    display: block;
+    height: auto;
     max-width: 50%;
     margin: 0 auto;
-    padding: 10px 10px;
 }
 
-.section-header__arrow {
-		animation: animation__arrow 2.5s infinite ease-in-out;
+.header__scroll-down {
+    animation: animation__arrow 2.5s infinite ease-in-out;
     background: url('../img/flecha.png') no-repeat center center;
     cursor: pointer;
     display: block;
     margin: 0 auto;
     padding: 60px;
-		width: 10%;
-}
-
-@keyframes animation__arrow {
-    0% {
-        padding-top: 60px;
-    }
-    50% {
-        padding-top: 30px;
-    }
+    width: 10%;
 }

@@ -1,0 +1,46 @@
+.lp-programs {
+    align-items: center;
+    display: flex;
+    margin: 30px 0;
+    padding: 0 60px;
+}
+
+.programs__title{
+    color: $orange;
+    font-family: $font-primary;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.programs__paragraph{
+    color: $blue;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.wrapper-description {
+    width: 50%;
+}
+
+.wrapper-image {
+    width: 50%;
+}
+
+.wrapper-image__image {
+    display: block;
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+.wrapper-description__title {
+    color: $orange;
+    font-family: $font-primary;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.wrapper-description__paragraph {
+    color: $blue;
+    font-size: 1.2rem;
+    margin-bottom: 30px;        
+}
