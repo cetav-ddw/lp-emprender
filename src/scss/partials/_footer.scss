@@ -24,7 +24,7 @@
 .contact {
     margin: 0 70px;
 
-    :first-child { 
+    &:first-child { 
         font-size: 1.3rem;
         font-weight: bold;  
     }
