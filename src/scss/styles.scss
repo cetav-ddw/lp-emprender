@@ -1,12 +1,14 @@
 // HELPERS
-@import 'helpers/fonts';
 @import 'helpers/variables';
 @import 'helpers/mixins';
 @import 'helpers/global';
+@import 'helpers/keyframes';
 // PARTIALS
-@import 'partials/header/navigation';
+@import 'partials/header/head';
 @import 'partials/header/content';
-@import 'partials/main/benefits';
-@import 'partials/main/emprender';
-@import 'partials/main/programs';
+@import 'partials/benefits';
+@import 'partials/introduction';
+@import 'partials/programs';
+@import 'partials/footer';
+@import 'partials/chatbot';
 

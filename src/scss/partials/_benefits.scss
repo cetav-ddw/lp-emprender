@@ -1,0 +1,39 @@
+.courses {
+    background: url('../img/forma2.svg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+}
+
+.wrapper-courses {
+    display: flex;
+    position: relative;
+    top: 25%;
+}
+
+.wrapper-gif {
+    width: 50%;
+}
+
+.wrapper-gif__gif {
+    max-width: 100%;
+    padding: 0 70px;
+}
+
+.wrapper-benefits {
+    width: 50%;
+}
+
+.wrapper-benefits__title {
+    color: $white;
+    font-family: $font-primary;
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+.wrapper-benefits__paragraph {
+    color: $white;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+

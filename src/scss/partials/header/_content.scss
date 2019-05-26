@@ -1,2 +1,80 @@
+.header {
+    height: 100vh;  
+}
 
+.wrapper-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px 0 20px;
+}
 
+.info-block { 
+    background:$blue;
+    height: 300px;
+    opacity: 0.8;
+    padding: 20px 60px;
+    width: 40%;
+}
+
+.header__title {
+    color: $orange;
+    font-family: $font-primary;
+    font-size: 2.5rem;
+    margin: 0 auto;
+    text-transform: uppercase;
+    padding-top: 10px;
+    width: 1300px;
+}
+
+.info-block__subtitle {
+    color: $white;
+    font-size: 1.5rem;
+    text-transform: lowercase;
+
+    &::first-letter {
+        text-transform: uppercase;
+    }
+}
+
+.info-block__paragraph {
+    color: $white;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.btn-ui {
+    background: $orange;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: -1px 0px 15px black;
+    color: $white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    padding: 10px 30px;
+    transition: ease-in-out 0.5s;
+
+    &:hover {
+        box-shadow: 0 0 0 $blue;
+        color: $blue;
+        transition: ease-in-out 0.5s;
+	}
+}
+
+.wrapper-illustration__image {
+    display: block;
+    height: auto;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.header__scroll-down {
+    animation: animation__arrow 2.5s infinite ease-in-out;
+    background: url('../img/flecha.png') no-repeat center center;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    padding: 60px;
+    width: 10%;
+}

@@ -1,0 +1,40 @@
+.footer {
+    background: $orange;
+    padding: 20px;
+}
+
+.wrapper-footer {
+    margin: 0 auto; 
+    padding: 0 30px;
+    width: 1300px;
+}
+
+.wrapper-footer__title {
+    color: $blue;
+    font-family: $font-primary;
+    font-size: 2.3rem;
+    margin: 20px 100px;
+}
+
+.wrapper-contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    margin: 0 70px;
+
+    :first-child { 
+        font-size: 1.3rem;
+        font-weight: bold;  
+    }
+}
+
+.contact__item {
+	color: $white;
+	font-size: 1.1rem;
+}
+
+.wrapper-contact__image {
+    margin: 0 40px;
+}

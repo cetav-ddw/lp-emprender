@@ -1,0 +1,25 @@
+.head-util {
+    background-color: $orange;
+}
+
+.lp-group {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.wrapper-link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link-pl {
+    color: $white;
+    font-size: 1rem;
+    text-transform: capitalize;
+    transition: ease-in-out 0.5s;
+    padding: 10px;
+    &:hover {
+        color: $blue;
+        transition: ease-in-out 0.5s;
+	}
+}

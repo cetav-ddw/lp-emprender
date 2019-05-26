@@ -2,18 +2,19 @@ html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background: #fff;
+    font-family: $font-secondary;
     margin: 0;
-    padding: 0;
+	padding: 0;
 }
 
-ul{
+ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-a{
+a {
     text-decoration: none;
 }
