@@ -5,13 +5,13 @@
 .wrapper-header {
     display: flex;
     justify-content: space-between;
-    padding: 40px 20px 0 20px;
+    padding: 40px 20px 0;
 }
 
 .info-block { 
     background:$blue;
     height: 300px;
-    opacity: 0.8;
+    opacity: .8;
     padding: 20px 60px;
     width: 40%;
 }
@@ -53,12 +53,12 @@
     font-weight: bold;
     letter-spacing: 1.5px;
     padding: 10px 30px;
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out .5s;
 
     &:hover {
         box-shadow: 0 0 0 $blue;
         color: $blue;
-        transition: ease-in-out 0.5s;
+        transition: ease-in-out .5s;
 	}
 }
 
@@ -71,7 +71,7 @@
 
 .header__scroll-down {
     animation: animation__arrow 2.5s infinite ease-in-out;
-    background: url('../img/flecha.png') no-repeat center center;
+    background: url("../img/flecha.png") no-repeat center center;
     cursor: pointer;
     display: block;
     margin: 0 auto;

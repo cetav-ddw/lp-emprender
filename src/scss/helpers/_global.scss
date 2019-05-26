@@ -3,18 +3,18 @@ html {
 }
 
 body {
-    background: #fff;
+    background: $white;
     font-family: $font-secondary;
-    margin: 0;
-	padding: 0;
-}
-
-ul {
-    list-style: none;
     margin: 0;
     padding: 0;
 }
 
 a {
     text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
