@@ -29,6 +29,10 @@
 .wrapper-contact {
     display: flex;
     justify-content: space-around;
+
+    @media screen and (max-width: $breakpoint-md)  {
+        flex-direction: column;
+    }
 }
 
 .contact {
@@ -41,6 +45,11 @@
 
     @media screen and (max-width: $breakpoint-lg)  {
         margin: 0;
+    }
+
+    @media screen and (max-width: $breakpoint-md)  {
+        flex-direction: column;
+        margin: 10px 0;
     }
 }
 
@@ -62,5 +71,10 @@
 
     @media screen and (max-width: $breakpoint-lg)  {
         margin: 0;
+    }
+
+    @media screen and (max-width: $breakpoint-md)  {
+        width: 70%;
+        margin: 20px;
     }
 }

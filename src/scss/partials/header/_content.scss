@@ -1,5 +1,9 @@
 .header {
-    height: 100vh; 
+    height: 100vh;
+
+    @media screen and (max-width: $breakpoint-md)  {
+        height: 80vh;
+    }
 }
 
 .wrapper-header {
@@ -8,7 +12,7 @@
     padding: 40px 20px 0;
 
     @media screen and (max-width: $breakpoint-xl)  {
-        padding: 0px 40px;
+        padding: 0 40px;
     } 
 
     @media screen and (max-width: $breakpoint-lg)  {
@@ -16,7 +20,10 @@
     }
 
     @media screen and (max-width: $breakpoint-md)  {
-        background: red;
+        flex-direction: column-reverse;
+        max-height: 100%;
+        margin-bottom: 40px;
+        padding: 0;
     }
 }
 
@@ -39,6 +46,13 @@
         padding: 10px 20px;
         width: 65%;
     }
+
+    @media screen and (max-width: $breakpoint-md)  {
+        background: none;
+        margin: 50px 0;
+        padding: 0;
+        width: 100%;
+    }
 }
 
 .header__title {
@@ -56,6 +70,11 @@
         font-size: 2.1rem;
         margin-left: 30px;
     }
+
+    @media screen and (max-width: $breakpoint-md)  {
+        margin: 10px;
+        padding: 0;
+    }
 }
 
 .info-block__subtitle {
@@ -71,6 +90,10 @@
         font-size: 1.1rem;
         margin-bottom: 20px;
     }
+
+    @media screen and (max-width: $breakpoint-md)  {
+        display: none;
+    }
 }
 
 .info-block__paragraph {
@@ -81,6 +104,10 @@
     @media screen and (max-width: $breakpoint-lg)  {
         font-size: 1rem;
         margin-bottom: 20px;
+    }
+
+    @media screen and (max-width: $breakpoint-md)  {
+        display: none;
     }
 }
 
@@ -95,6 +122,7 @@
     font-weight: bold;
     letter-spacing: 1.5px;
     padding: 10px 30px;
+    text-align: center;
     transition: ease-in-out .5s;
 
     &:hover {
@@ -105,6 +133,13 @@
     
     @media screen and (max-width: $breakpoint-lg)  {
         font-size: 1.4rem;
+    }
+
+    @media screen and (max-width: $breakpoint-md)  {
+        display: block;
+        font-size: 1.2rem;
+        margin: 0 auto;
+        width: 80%;
     }
 }
 
@@ -123,4 +158,8 @@
     margin: 0 auto;
     padding: 60px;
     width: 10%;
+
+    @media screen and (max-width: $breakpoint-md)  {
+        display: none;
+    }
 }

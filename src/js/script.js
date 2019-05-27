@@ -1,17 +1,17 @@
 (function () {
 	const chatbtnArray = document.querySelectorAll('#chatbot-js');
-	const windowChatBot = document.querySelector('.chat-field');
 	const closebtn = document.querySelector('#btnclose-js');
-	
+	const wrapperChat = document.querySelector('.chatbot');
+	closebtn.addEventListener('click', closeWindow);
 	chatbtnArray.forEach(element => {
 		element.addEventListener('click', showWindow);
 	});
-	closebtn.addEventListener('click', closeWindow);
+
 	function showWindow() {
-		windowChatBot.className = "open-window"
+		wrapperChat.className = "chatbot-open";
 	}
 
 	function closeWindow(){
-		windowChatBot.className = "chat-field"
+		wrapperChat.className = "chatbot";
 	}
 }())

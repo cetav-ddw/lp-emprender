@@ -1,7 +1,7 @@
 .courses {
     background: url("../img/forma2.svg") no-repeat;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     height: 110vh;
 
     @media screen and (max-width: $breakpoint-xl)  {
@@ -10,6 +10,13 @@
 
     @media screen and (max-width: $breakpoint-lg)  {
         padding-bottom: 30px;
+    }
+
+    @media screen and (max-width: $breakpoint-md)  {
+        background: none;
+        height: 100vh;
+        padding: 0;
+        margin-bottom: 150px;
     }
 }
 
@@ -21,10 +28,20 @@
     @media screen and (max-width: $breakpoint-xl)  {
         top: 20%;
     } 
+
+    @media screen and (max-width: $breakpoint-md)  {
+        flex-direction: column;
+        max-height: 100%;
+        padding: 10px;
+    }
 }
 
 .wrapper-gif {
     width: 50%;
+
+    @media screen and (max-width: $breakpoint-md)  {
+        width: 100%;
+    }
 }
 
 .wrapper-gif__gif {
@@ -35,10 +52,20 @@
         max-width: 80%;
         padding: 25px 0 0 10px;
     }
+
+    @media screen and (max-width: $breakpoint-md)  {
+        max-width: 100%;
+        padding: 0;
+    }
 }
 
 .wrapper-benefits {
     width: 50%;
+
+    @media screen and (max-width: $breakpoint-md)  {
+        margin: 0 auto;
+        width: 80%;
+    }
 }
 
 .wrapper-benefits__title {
@@ -50,6 +77,12 @@
     @media screen and (max-width: $breakpoint-lg)  {
         font-size: 2.2rem
     }
+
+    @media screen and (max-width: $breakpoint-md)  {
+        color: $orange;
+        font-size: 2rem;
+        text-align: center;
+    }
 }
 
 .wrapper-benefits__paragraph {
@@ -59,6 +92,11 @@
 
     @media screen and (max-width: $breakpoint-lg)  {
         font-size: 1rem
+    }
+
+    @media screen and (max-width: $breakpoint-md)  {
+        color: $blue;
+        text-align: center;
     }
 }
 
