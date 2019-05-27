@@ -22,12 +22,9 @@
 
 .wrapper-courses {
     display: flex;
+    justify-content: space-around;
     position: relative;
-    top: 25%;
-
-    @media screen and (max-width: $breakpoint-xl)  {
-        top: 20%;
-    } 
+    top: 25%; 
 
     @media screen and (max-width: $breakpoint-md)  {
         flex-direction: column;
@@ -36,25 +33,25 @@
     }
 }
 
-.wrapper-gif {
-    width: 50%;
-
+.wrapper-animation {
+    width: 45%;
+    
     @media screen and (max-width: $breakpoint-md)  {
         width: 100%;
     }
 }
 
-.wrapper-gif__gif {
+.wrapper-animation__video {
     max-width: 100%;
-    padding: 0 70px;
 
     @media screen and (max-width: $breakpoint-lg)  {
-        max-width: 80%;
+        display: block;
+        margin: 0 auto;
+        width: 80%;
         padding: 25px 0 0 10px;
     }
 
     @media screen and (max-width: $breakpoint-md)  {
-        max-width: 100%;
         padding: 0;
     }
 }

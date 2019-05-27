@@ -29,6 +29,7 @@
 .wrapper-contact {
     display: flex;
     justify-content: space-around;
+    padding-bottom:20px;
 
     @media screen and (max-width: $breakpoint-md)  {
         flex-direction: column;
@@ -68,13 +69,21 @@
 
 .wrapper-contact__image {
     margin: 0 40px;
-
+    width: 200px;
     @media screen and (max-width: $breakpoint-lg)  {
         margin: 0;
     }
 
     @media screen and (max-width: $breakpoint-md)  {
-        width: 70%;
         margin: 20px;
     }
+}
+
+.chatbot__btn{
+    bottom: 0;
+    cursor: pointer;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    width: 100px;
 }

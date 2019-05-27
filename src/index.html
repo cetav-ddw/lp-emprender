@@ -30,8 +30,10 @@
         <img class="wrapper-illustration__image" src="img/robot.png" alt="imagen RAMI">
       </div>
     </div>
-    <a href="#section-main" class="header__scroll-down"></a>
   </header>
+  <div class="wrapper__scroll lp-group">
+    <a href="#section-main" class="wrapper__scroll-down"></a>
+  </div>
   <section class="content-main" id="section-main">
     <!-- Emprender intro -->
     <div class="introduction lp-group">
@@ -57,8 +59,10 @@
     <!-- Emprender courses -->
     <div class="courses">
       <article class="wrapper-courses lp-group">
-        <div class="wrapper-gif">
-          <img class="wrapper-gif__gif" src="img/tarea.gif" alt="gif free-benefits">
+        <div class="wrapper-animation">
+          <video class="wrapper-animation__video">
+            <source src="video/animacion_cursosv3.mp4" type="video/mp4">
+          </video>
         </div>
         <div class="wrapper-benefits">
           <h2 class="wrapper-benefits__title">Cursos Gratuitos</h2>
@@ -141,26 +145,6 @@
       </div>
     </div>
   </footer>
-  <div class="chatbot">
-    <div class="chat-field">
-      <div class="header-chat">
-        <p class="header-chat__paragraph">Emprender</p>
-        <button class="header-chat__btn-close" id="btnclose-js">x</button>
-      </div>
-      <div id="text-chat">
-        <ul class="tex-chat-list">
-          <p class="message-field__text">hola soy bot</p>
-          <p class="message-field__text">hola soy bot</p>
-          <p class="message-field__text">hola soy bot</p>
-          <p class="message-field__text">hola soy bot</p>
-        </ul>
-      </div>
-      <form class="form-chat" method="POST" action="">
-        <textarea class="form-chat__message-field" name="mensaje" placeholder="ingrese su mensaje"></textarea>
-        <input class="form-chat__input" type="submit" name="enviar" value="enviar">
-      </form>
-    </div>
-  </div>
   <img class="chatbot__btn" id="chatbot-js" src="img/bot.png" alt="chatbot">
   <script src="js/script.js"></script>
 </body>
