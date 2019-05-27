@@ -3,7 +3,15 @@
 }
 
 .introduction {
-    padding: 50px 30px;
+    padding: 50px 30px 0;
+
+    @media screen and (max-width: $breakpoint-xl)  {
+        padding: 30px 20px 0; 
+    } 
+
+    @media screen and (max-width: $breakpoint-lg)  {
+        padding: 10px;
+    }
 }
 
 .introduction__title {
@@ -40,6 +48,14 @@
 .column {
     padding: 0 60px;
     width: 50%;
+
+    @media screen and (max-width: $breakpoint-xl)  {
+        padding-bottom: 20;
+    } 
+
+    @media screen and (max-width: $breakpoint-lg)  {
+        padding: 10px;
+    }
 }
 
 .column__icon {

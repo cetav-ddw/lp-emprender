@@ -3,12 +3,24 @@
     background-size: cover;
     background-position: center;
     height: 110vh;
+
+    @media screen and (max-width: $breakpoint-xl)  {
+        height: 80vh;
+    } 
+
+    @media screen and (max-width: $breakpoint-lg)  {
+        padding-bottom: 30px;
+    }
 }
 
 .wrapper-courses {
     display: flex;
     position: relative;
     top: 25%;
+
+    @media screen and (max-width: $breakpoint-xl)  {
+        top: 20%;
+    } 
 }
 
 .wrapper-gif {
@@ -18,6 +30,11 @@
 .wrapper-gif__gif {
     max-width: 100%;
     padding: 0 70px;
+
+    @media screen and (max-width: $breakpoint-lg)  {
+        max-width: 80%;
+        padding: 25px 0 0 10px;
+    }
 }
 
 .wrapper-benefits {
@@ -29,11 +46,19 @@
     font-family: $font-primary;
     font-size: 3rem;
     margin: 20px 0;
+
+    @media screen and (max-width: $breakpoint-lg)  {
+        font-size: 2.2rem
+    }
 }
 
 .wrapper-benefits__paragraph {
     color: $white;
     font-size: 1.2rem;
     margin-bottom: 40px;
+
+    @media screen and (max-width: $breakpoint-lg)  {
+        font-size: 1rem
+    }
 }
 
