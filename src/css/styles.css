@@ -20,12 +20,13 @@ ul {
     padding-top: 60px; }
   50% {
     padding-top: 30px; } }
+
 .head-util {
   background-color: #ff8f00;
   padding: 10px; }
 
 .lp-group {
-  max-width: 1300px;
+  max-width: 1145px;
   margin: 0 auto; }
 
 .wrapper-link {
@@ -47,15 +48,12 @@ ul {
   @media screen and (max-width: 700px) {
     .header {
       height: 80vh;
-      padding-bottom: 50px; } }
+      padding-bottom: 20px; } }
 
 .wrapper-header {
   display: flex;
   justify-content: space-between;
   padding: 40px 20px 0; }
-  @media screen and (max-width: 1200px) {
-    .wrapper-header {
-      padding: 0 40px; } }
   @media screen and (max-width: 1054px) {
     .wrapper-header {
       padding: 0 20px; } }
@@ -74,9 +72,6 @@ ul {
   height: fit-content;
   padding: 20px 20px 40px;
   width: 40%; }
-  @media screen and (max-width: 1200px) {
-    .info-block {
-      width: 50%; } }
   @media screen and (max-width: 1054px) {
     .info-block {
       margin-bottom: 30px;
@@ -100,9 +95,6 @@ ul {
   font-size: 2.5rem;
   text-transform: uppercase;
   padding-top: 50px; }
-  @media screen and (max-width: 1200px) {
-    .header__title {
-      margin-left: 40px; } }
   @media screen and (max-width: 1054px) {
     .header__title {
       font-size: 2.1rem;
@@ -206,9 +198,6 @@ ul {
   background-position: center;
   background-size: cover;
   height: 110vh; }
-  @media screen and (max-width: 1200px) {
-    .courses {
-      height: 70vh; } }
   @media screen and (max-width: 1054px) {
     .courses {
       padding-bottom: 30px; } }
@@ -222,8 +211,8 @@ ul {
     .courses {
       background: none;
       height: 90vh;
-      padding: 0;
-      margin-bottom: 50px; } }
+      margin-bottom: 50px;
+      padding: 0; } }
 
 .wrapper-courses {
   display: flex;
@@ -268,7 +257,7 @@ ul {
   color: white;
   font-family: "Palanquin Dark", sans-serif;
   font-size: 3rem;
-  margin: 20px 0; }
+  margin: 0; }
   @media screen and (max-width: 1054px) {
     .wrapper-benefits__title {
       font-size: 2.2rem; } }
@@ -293,9 +282,6 @@ ul {
 
 .introduction {
   padding: 50px 30px 0; }
-  @media screen and (max-width: 1200px) {
-    .introduction {
-      padding: 30px 20px 0; } }
   @media screen and (max-width: 1054px) {
     .introduction {
       padding: 10px; } }
@@ -354,9 +340,6 @@ ul {
 .column {
   padding: 0 60px;
   width: 50%; }
-  @media screen and (max-width: 1200px) {
-    .column {
-      padding-bottom: 20; } }
   @media screen and (max-width: 1054px) {
     .column {
       padding: 10px; } }
@@ -375,8 +358,7 @@ ul {
   color: #ff8f00;
   font-family: "Palanquin Dark", sans-serif;
   font-size: 1.5rem;
-  text-align: center;
-  text-transform: capitalize; }
+  text-align: center; }
 
 .column__text {
   color: #2a607e;
@@ -466,21 +448,18 @@ ul {
 
 .wrapper-footer {
   padding: 0 20px; }
-  @media screen and (max-width: 1200px) {
-    .wrapper-footer {
-      padding: 0; } }
 
 .wrapper-footer__title {
   color: #2a607e;
   font-family: "Palanquin Dark", sans-serif;
   font-size: 2.3rem;
   margin: 20px 100px; }
-  @media screen and (max-width: 1200px) {
-    .wrapper-footer__title {
-      margin: 10px 70px; } }
   @media screen and (max-width: 1054px) {
     .wrapper-footer__title {
       margin: 10px; } }
+  @media screen and (max-width: 800px) {
+    .wrapper-footer__title {
+      text-align: center; } }
 
 .wrapper-contact {
   display: flex;
@@ -504,16 +483,28 @@ ul {
   color: white;
   font-weight: bold;
   font-size: 1.1rem; }
+  .contact__item:first-child {
+    font-family: "Palanquin Dark", sans-serif;
+    font-size: 1.2rem; }
   @media screen and (max-width: 800px) {
     .contact__item {
       text-align: center; } }
   @media screen and (max-width: 800px) {
     .contact__item {
+      font-size: 1rem;
+      margin-bottom: 20px; } }
+
+.item__link {
+  color: white;
+  font-size: 1.1rem; }
+  @media screen and (max-width: 700px) {
+    .item__link {
       font-size: 1rem; } }
 
 .wrapper-contact__image {
+  height: fit-content;
   margin: 0 40px;
-  max-width: 200px; }
+  max-width: 100%; }
   @media screen and (max-width: 1054px) {
     .wrapper-contact__image {
       margin: 0; } }
@@ -533,5 +524,3 @@ ul {
     .chatbot__btn {
       height: 70px;
       width: 100px; } }
-
-/*# sourceMappingURL=styles.css.map */

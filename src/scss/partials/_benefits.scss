@@ -4,10 +4,6 @@
     background-size: cover;
     height: 110vh;
 
-    @media screen and (max-width: $breakpoint-xl)  {
-        height: 70vh;
-    } 
-
     @media screen and (max-width: $breakpoint-lg)  {
         padding-bottom: 30px;
     }
@@ -22,8 +18,8 @@
     @media screen and (max-width: $breakpoint-sm)  {
         background: none;
         height: 90vh;
-        padding: 0;
         margin-bottom: 50px;
+        padding: 0;
     }
 }
 
@@ -79,7 +75,7 @@
     color: $white;
     font-family: $font-primary;
     font-size: 3rem;
-    margin: 20px 0;
+    margin: 0;
 
     @media screen and (max-width: $breakpoint-lg)  {
         font-size: 2.2rem;
