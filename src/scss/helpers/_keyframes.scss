@@ -6,3 +6,246 @@
         padding-top: 30px;
     }
 }
+
+.bubbles-ui:nth-child(1) {
+    width: 15vw;
+    height: 300px;
+    left: 35%;
+    top: 55%;
+    z-index: -1;
+    animation: anim__bubble__one 5s infinite;
+    @media screen and (max-width: $breakpoint-lg) {
+        width: 25vw;
+    }
+    @media screen and (max-width: $breakpoint-md) {
+        display: none;
+    }
+}
+
+@keyframes anim__bubble__one {
+    0% {
+        top: 55%;
+        transform: rotate(0deg);
+    }
+    50% {
+        top: 53%;
+        transform: rotate(-5deg);
+    }
+    100% {
+        top: 55%;
+        transform: rotate(0deg);
+    }
+}
+
+.bubbles-ui:nth-child(2) {
+    width: 20vw;
+    height: 300px;
+    left: 0%;
+    top: 55%;
+    z-index: -1;
+    animation: anim__bubble__two 5s infinite;
+    @media screen and (max-width: $breakpoint-lg) {
+        width: 25vw;
+    }
+    @media screen and (max-width: $breakpoint-md) {
+        display: none;
+    }
+}
+
+@keyframes anim__bubble__two {
+    0% {
+        top: 55%;
+    }
+    50% {
+        top: 53%;
+    }
+    100% {
+        top: 55%;
+    }
+}
+
+.bubbles-ui:nth-child(3) {
+    width: 15vw;
+    height: 200px;
+    left: 30%;
+    top: 25%;
+    z-index: -1;
+    transform: rotate(2deg);
+    animation: anim__bubble__three 4s infinite;
+    @media screen and (max-width: $breakpoint-lg) {
+        width: 20vw;
+    }
+    @media screen and (max-width: $breakpoint-md) {
+        display: none;
+    }
+}
+
+@keyframes anim__bubble__three {
+    0% {
+        top: 25%;
+        transform: rotate(0deg);
+    }
+    50% {
+        top: 26%;
+        transform: rotate(-3deg);
+    }
+    100% {
+        top: 25%;
+        transform: rotate(0deg);
+    }
+}
+
+.bubbles-ui:nth-child(4) {
+    width: 5vw;
+    height: 100px;
+    left: 55%;
+    top: 30%;
+    z-index: -1;
+    transform: rotate(2deg);
+    animation: anim__bubble__fourth 5s infinite;
+    @media screen and (max-width: $breakpoint-lg) {
+        width: 8vw;
+    }
+    @media screen and (max-width: $breakpoint-md) {
+        display: none;
+    }
+}
+
+@keyframes anim__bubble__fourth {
+    0% {
+        top: 30%;
+        transform: rotate(0deg);
+    }
+    50% {
+        top: 28%;
+        transform: rotate(20deg);
+    }
+    100% {
+        top: 30%;
+        transform: rotate(0deg);
+    }
+}
+
+.bubbles-ui:nth-child(5) {
+    width: 5vw;
+    height: 80px;
+    left: 73%;
+    top: 70%;
+    z-index: -1;
+    transform: rotate(182deg);
+    animation: anim__bubble__fifth 5s infinite;
+    @media screen and (max-width: $breakpoint-lg) {
+        width: 7vw;
+    }
+    @media screen and (max-width: $breakpoint-md) {
+        display: none;
+    }
+}
+
+@keyframes anim__bubble__fifth {
+    0% {
+        top: 70%;
+        transform: rotate(0deg);
+    }
+    50% {
+        top: 69%;
+        transform: rotate(20deg);
+    }
+    100% {
+        top: 70%;
+        transform: rotate(0deg);
+    }
+}
+
+.bubbles-ui:nth-child(6) {
+    width: 5vw;
+    height: 61px;
+    left: 77%;
+    top: 48%;
+    z-index: -1;
+    transform: rotate(0deg);
+    animation: anim__bubble__sixth 5s infinite;
+    @media screen and (max-width: $breakpoint-lg) {
+        width: 6vw;
+    }
+    @media screen and (max-width: $breakpoint-md) {
+        display: none;
+    }
+}
+
+@keyframes anim__bubble__sixth {
+    0% {
+        top: 48%;
+        transform: rotate(0deg);
+    }
+    50% {
+        top: 46%;
+        transform: rotate(-50deg);
+    }
+    100% {
+        top: 48%;
+        transform: rotate(0deg);
+    }
+}
+
+.bubbles-ui:nth-child(7) {
+    width: 5vw;
+    height: 50px;
+    left: 80%;
+    top: 25%;
+    z-index: -1;
+    transform: rotate(0deg);
+    animation: anim__bubble__seventh 5s infinite;
+    @media screen and (max-width: $breakpoint-lg) {
+        width: 7vw;
+    }
+    @media screen and (max-width: $breakpoint-md) {
+        display: none;
+    }
+}
+
+@keyframes anim__bubble__seventh {
+    0% {
+        top: 25%;
+        transform: rotate(0deg);
+    }
+    50% {
+        top: 23%;
+        transform: rotate(5deg);
+    }
+    100% {
+        top: 25%;
+        transform: rotate(0deg);
+    }
+}
+
+.bubbles-ui:nth-child(8) {
+    width: 5vw;
+    height: 50px;
+    left: 90%;
+    top: 25%;
+    z-index: -1;
+    transform: rotate(0deg);
+    animation: anim__bubble__eighth 5s infinite;
+    @media screen and (max-width: $breakpoint-lg) {
+        width: 7vw;
+    }
+    @media screen and (max-width: $breakpoint-md) {
+        display: none;
+    }
+}
+
+@keyframes anim__bubble__eighth {
+    0% {
+        top: 25%;
+        transform: rotate(0deg);
+    }
+    50% {
+        top: 22%;
+        transform: rotate(-15deg);
+    }
+    100% {
+        top: 25%;
+        transform: rotate(0deg);
+    }
+}
