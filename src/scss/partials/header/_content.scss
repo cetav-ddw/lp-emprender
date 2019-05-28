@@ -1,5 +1,6 @@
 .header {
     max-height: 85vh;
+    position: relative;
 
     @media screen and (max-width: $breakpoint-sm)  {
         height: 80vh;
@@ -29,7 +30,7 @@
 }
 
 .info-block { 
-    background: $blue;
+    background: #2a627edc;
     height: fit-content;
     padding: 20px 20px 40px;
     width: 40%;
@@ -77,6 +78,11 @@
         padding: 0;
     }
 }
+
+.bubbles-ui {
+    position: absolute;
+}
+
 
 .info-block__subtitle {
     color: $white;
