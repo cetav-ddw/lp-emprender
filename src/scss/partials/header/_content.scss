@@ -159,6 +159,7 @@
     padding: 60px;
     position: absolute;
     right: 0;
+    
     @media screen and (max-width: $breakpoint-md)  {
         display: none;
     }
