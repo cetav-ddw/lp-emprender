@@ -1,17 +1,9 @@
 (function () {
-	const chatbtnArray = document.querySelectorAll('#chatbot-js');
-	const windowChatBot = document.querySelector('.chat-field');
-	const closebtn = document.querySelector('#btnclose-js');
+	const animationVideo = document.querySelector('.wrapper-animation__video')
+	window.addEventListener('scroll' ,playVideo);
 	
-	chatbtnArray.forEach(element => {
-		element.addEventListener('click', showWindow);
-	});
-	closebtn.addEventListener('click', closeWindow);
-	function showWindow() {
-		windowChatBot.className = "open-window"
+	function playVideo () {
+		animationVideo.play();
 	}
 
-	function closeWindow(){
-		windowChatBot.className = "chat-field"
-	}
 }())

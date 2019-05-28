@@ -1,27 +1,68 @@
 .courses {
     background: url("../img/forma2.svg") no-repeat;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     height: 110vh;
+
+    @media screen and (max-width: $breakpoint-xl)  {
+        height: 80vh;
+    } 
+
+    @media screen and (max-width: $breakpoint-lg)  {
+        padding-bottom: 30px;
+    }
+
+    @media screen and (max-width: $breakpoint-md)  {
+        background: none;
+        height: 100vh;
+        padding: 0;
+        margin-bottom: 150px;
+    }
 }
 
 .wrapper-courses {
     display: flex;
+    justify-content: space-around;
     position: relative;
-    top: 25%;
+    top: 25%; 
+
+    @media screen and (max-width: $breakpoint-md)  {
+        flex-direction: column;
+        max-height: 100%;
+        padding: 10px;
+    }
 }
 
-.wrapper-gif {
-    width: 50%;
+.wrapper-animation {
+    width: 45%;
+    
+    @media screen and (max-width: $breakpoint-md)  {
+        width: 100%;
+    }
 }
 
-.wrapper-gif__gif {
+.wrapper-animation__video {
     max-width: 100%;
-    padding: 0 70px;
+
+    @media screen and (max-width: $breakpoint-lg)  {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        padding: 25px 0 0 10px;
+    }
+
+    @media screen and (max-width: $breakpoint-md)  {
+        padding: 0;
+    }
 }
 
 .wrapper-benefits {
     width: 50%;
+
+    @media screen and (max-width: $breakpoint-md)  {
+        margin: 0 auto;
+        width: 80%;
+    }
 }
 
 .wrapper-benefits__title {
@@ -29,11 +70,30 @@
     font-family: $font-primary;
     font-size: 3rem;
     margin: 20px 0;
+
+    @media screen and (max-width: $breakpoint-lg)  {
+        font-size: 2.2rem
+    }
+
+    @media screen and (max-width: $breakpoint-md)  {
+        color: $orange;
+        font-size: 2rem;
+        text-align: center;
+    }
 }
 
 .wrapper-benefits__paragraph {
     color: $white;
     font-size: 1.2rem;
     margin-bottom: 40px;
+
+    @media screen and (max-width: $breakpoint-lg)  {
+        font-size: 1rem
+    }
+
+    @media screen and (max-width: $breakpoint-md)  {
+        color: $blue;
+        text-align: center;
+    }
 }
 
