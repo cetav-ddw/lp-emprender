@@ -5,7 +5,6 @@
 
 .wrapper-footer {
     padding: 0 20px;
-
 }
 
 .wrapper-footer__title {
@@ -76,8 +75,8 @@
 }
 
 .wrapper-contact__image {
-    margin: 0 40px;
     height: fit-content;
+    margin: 0 40px;
     max-width: 100%;
 
     @media screen and (max-width: $breakpoint-lg)  {
