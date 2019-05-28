@@ -297,8 +297,7 @@ ul {
   color: #ff8f00;
   font-family: "Palanquin Dark", sans-serif;
   font-size: 2.5rem;
-  text-transform: uppercase;
-  padding-top: 50px; }
+  text-transform: uppercase; }
   @media screen and (max-width: 1054px) {
     .header__title {
       font-size: 2.1rem;
@@ -319,7 +318,8 @@ ul {
 .info-block__subtitle {
   color: white;
   font-family: "Palanquin Dark", sans-serif;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  line-height: 1.5; }
   .info-block__subtitle::first-letter {
     text-transform: uppercase; }
   @media screen and (max-width: 1054px) {
@@ -344,8 +344,8 @@ ul {
 .btn-ui {
   background: #ff8f00;
   border: 0;
-  border-radius: 8px;
-  box-shadow: 1px 1px 10px #2b2b2b;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
   color: white;
   cursor: pointer;
   font-size: 1.5rem;
@@ -594,12 +594,14 @@ ul {
 .programs__title {
   color: #ff8f00;
   font-family: "Palanquin Dark", sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
+  margin-bottom: 0;
   text-align: center; }
 
 .programs__paragraph {
   color: #2a607e;
   font-size: 1.3rem;
+  margin-top: 0;
   text-align: center; }
   @media screen and (max-width: 700px) {
     .programs__paragraph {
@@ -633,7 +635,7 @@ ul {
   color: #ff8f00;
   font-family: "Palanquin Dark", sans-serif;
   font-size: 1.5rem;
-  text-transform: capitalize; }
+  line-height: 1.25; }
   @media screen and (max-width: 800px) {
     .wrapper-description__title {
       text-align: center; } }
