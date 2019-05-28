@@ -5,7 +5,7 @@
     height: 110vh;
 
     @media screen and (max-width: $breakpoint-xl)  {
-        height: 80vh;
+        height: 70vh;
     } 
 
     @media screen and (max-width: $breakpoint-lg)  {
@@ -14,9 +14,16 @@
 
     @media screen and (max-width: $breakpoint-md)  {
         background: none;
-        height: 100vh;
+        height: 70vh;
+        margin-bottom: 50px;
         padding: 0;
-        margin-bottom: 150px;
+    }
+
+    @media screen and (max-width: $breakpoint-sm)  {
+        background: none;
+        height: 90vh;
+        padding: 0;
+        margin-bottom: 50px;
     }
 }
 
@@ -30,6 +37,7 @@
         flex-direction: column;
         max-height: 100%;
         padding: 10px;
+        top: 0%;
     }
 }
 
@@ -52,7 +60,9 @@
     }
 
     @media screen and (max-width: $breakpoint-md)  {
+        margin: 0;
         padding: 0;
+        width: 100%;
     }
 }
 
@@ -72,7 +82,7 @@
     margin: 20px 0;
 
     @media screen and (max-width: $breakpoint-lg)  {
-        font-size: 2.2rem
+        font-size: 2.2rem;
     }
 
     @media screen and (max-width: $breakpoint-md)  {
@@ -87,12 +97,9 @@
     font-size: 1.2rem;
     margin-bottom: 40px;
 
-    @media screen and (max-width: $breakpoint-lg)  {
-        font-size: 1rem
-    }
-
     @media screen and (max-width: $breakpoint-md)  {
         color: $blue;
+        font-size: 1.1rem;
         text-align: center;
     }
 }

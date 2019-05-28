@@ -29,7 +29,7 @@
 .wrapper-contact {
     display: flex;
     justify-content: space-around;
-    padding-bottom:20px;
+    padding-bottom: 20px;
 
     @media screen and (max-width: $breakpoint-md)  {
         flex-direction: column;
@@ -38,11 +38,6 @@
 
 .contact {
     margin: 0 70px;
-
-    &:first-child { 
-        font-size: 1.3rem;
-        font-weight: bold;  
-    }
 
     @media screen and (max-width: $breakpoint-lg)  {
         margin: 0;
@@ -55,27 +50,30 @@
 }
 
 .contact__item {
-	color: $white;
+    color: $white;
+    font-weight: bold;
     font-size: 1.1rem;
 
-    @media screen and (max-width: $breakpoint-xl)  {
-        font-size: 1rem;
-    } 
-    
-    @media screen and (max-width: $breakpoint-lg)  {
+    @media screen and (max-width: $breakpoint-md)  {
+        text-align: center;
+    }
+
+    @media screen and (max-width: $breakpoint-md)  {
         font-size: 1rem;
     }
 }
 
 .wrapper-contact__image {
     margin: 0 40px;
-    width: 200px;
+    max-width: 200px;
+
     @media screen and (max-width: $breakpoint-lg)  {
         margin: 0;
     }
 
     @media screen and (max-width: $breakpoint-md)  {
-        margin: 20px;
+        margin: 0 auto;
+        padding-top: 50px;
     }
 }
 
@@ -85,5 +83,10 @@
     height: 100px;
     position: fixed;
     right: 0;
-    width: 100px;
+    width: 150px;
+
+    @media screen and (max-width: $breakpoint-sm)  {
+        height: 70px;
+        width: 100px;
+    }
 }

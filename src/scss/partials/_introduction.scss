@@ -25,7 +25,6 @@
     text-transform:capitalize;
 
     @media screen and (max-width: $breakpoint-md)  {
-        font-size: 1.8rem;
         text-align: center;
     }
 }
@@ -37,6 +36,11 @@
     width: 80%;
 
     @media screen and (max-width: $breakpoint-md)  {
+        text-align: center;
+        width: 100%;
+    }
+
+    @media screen and (max-width: $breakpoint-sm)  {
         font-size: 1.1rem;
         text-align: center;
         width: 100%;
@@ -51,9 +55,7 @@
     text-align: center;
 
     @media screen and (max-width: $breakpoint-md)  {
-        font-size: 1.3rem;
         text-align: center;
-        width: 100%;
     }
 }
 
@@ -118,7 +120,7 @@
         text-transform: uppercase;
     }
     
-    @media screen and (max-width: $breakpoint-md)  {
+    @media screen and (max-width: $breakpoint-sm)  {
         font-size: 1.1rem;
     }
 }
