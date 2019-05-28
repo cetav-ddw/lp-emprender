@@ -1,8 +1,9 @@
 .header {
     max-height: 85vh;
 
-    @media screen and (max-width: $breakpoint-md)  {
+    @media screen and (max-width: $breakpoint-sm)  {
         height: 80vh;
+        padding-bottom:  20px;
     }
 }
 
@@ -11,15 +12,15 @@
     justify-content: space-between;
     padding: 40px 20px 0;
 
-    @media screen and (max-width: $breakpoint-xl)  {
-        padding: 0 40px;
-    } 
-
     @media screen and (max-width: $breakpoint-lg)  {
         padding: 0 20px;
     }
 
     @media screen and (max-width: $breakpoint-md)  {
+        flex-direction: column-reverse;
+    }
+
+    @media screen and (max-width: $breakpoint-sm)  {
         flex-direction: column-reverse;
         max-height: 100%;
         margin-bottom: 40px;
@@ -30,12 +31,8 @@
 .info-block { 
     background: $blue;
     height: fit-content;
-    padding: 20px;
+    padding: 20px 20px 40px;
     width: 40%;
-
-    @media screen and (max-width: $breakpoint-xl)  {
-        width: 50%;
-    } 
 
     @media screen and (max-width: $breakpoint-lg)  {
         margin-bottom: 30px; 
@@ -43,6 +40,13 @@
     }
 
     @media screen and (max-width: $breakpoint-md)  {
+        background: none;
+        margin: 0 auto;
+        padding: 50px 0px;
+        width: 50%;
+    }
+
+    @media screen and (max-width: $breakpoint-sm)  {
         background: none;
         margin: 50px 0;
         padding: 0;
@@ -57,17 +61,19 @@
     text-transform: uppercase;
     padding-top: 50px;
 
-    @media screen and (max-width: $breakpoint-xl)  {
-        margin-left: 40px;
-    } 
-
     @media screen and (max-width: $breakpoint-lg)  {
         font-size: 2.1rem;
         margin-left: 30px;
     }
 
     @media screen and (max-width: $breakpoint-md)  {
-        margin: 10px;
+        font-size: 2.3rem;
+        margin: 10px 10px 50px;
+        padding: 0;
+    }
+
+    @media screen and (max-width: $breakpoint-sm)  {
+        margin: 10px 10px 50px;
         padding: 0;
     }
 }
@@ -132,6 +138,13 @@
 
     @media screen and (max-width: $breakpoint-md)  {
         display: block;
+        font-size: 1.4rem;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    @media screen and (max-width: $breakpoint-sm)  {
+        display: block;
         font-size: 1.2rem;
         margin: 0 auto;
         width: 80%;
@@ -140,15 +153,22 @@
 
 .wrapper-illustration__image {
     display: block;
-    height: auto;
     max-width: 50%;
     margin: 0 auto;
+
+    @media screen and (max-width: $breakpoint-md)  {
+        max-width: 40%;
+    }
 }
 
 .wrapper__scroll {
     padding: 20px 0;
     position: relative;
     height: 10vh;
+
+    @media screen and (max-width: $breakpoint-md)  {
+        display: none;
+    }
 }
 
 .wrapper__scroll-down{
@@ -159,8 +179,4 @@
     padding: 60px;
     position: absolute;
     right: 0;
-    
-    @media screen and (max-width: $breakpoint-md)  {
-        display: none;
-    }
 }

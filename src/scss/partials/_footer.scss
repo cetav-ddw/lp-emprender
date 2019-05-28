@@ -6,9 +6,6 @@
 .wrapper-footer {
     padding: 0 20px;
 
-    @media screen and (max-width: $breakpoint-xl)  {
-        padding: 0;
-    } 
 }
 
 .wrapper-footer__title {
@@ -17,19 +14,19 @@
     font-size: 2.3rem;
     margin: 20px 100px;
 
-    @media screen and (max-width: $breakpoint-xl)  {
-        margin: 10px 70px;
-    } 
-
     @media screen and (max-width: $breakpoint-lg)  {
         margin: 10px;
+    }
+
+    @media screen and (max-width: $breakpoint-md)  {
+        text-align: center;
     }
 }
 
 .wrapper-contact {
     display: flex;
     justify-content: space-around;
-    padding-bottom:20px;
+    padding-bottom: 20px;
 
     @media screen and (max-width: $breakpoint-md)  {
         flex-direction: column;
@@ -38,11 +35,6 @@
 
 .contact {
     margin: 0 70px;
-
-    &:first-child { 
-        font-size: 1.3rem;
-        font-weight: bold;  
-    }
 
     @media screen and (max-width: $breakpoint-lg)  {
         margin: 0;
@@ -55,27 +47,46 @@
 }
 
 .contact__item {
-	color: $white;
+    color: $white;
+    font-weight: bold;
     font-size: 1.1rem;
 
-    @media screen and (max-width: $breakpoint-xl)  {
+    &:first-child{
+        font-family: $font-primary;
+        font-size: 1.2rem;
+    }
+
+    @media screen and (max-width: $breakpoint-md)  {
+        text-align: center;
+    }
+
+    @media screen and (max-width: $breakpoint-md)  {
         font-size: 1rem;
-    } 
-    
-    @media screen and (max-width: $breakpoint-lg)  {
+        margin-bottom: 20px;
+    }
+}
+
+.item__link {
+    color: $white;
+    font-size: 1.1rem;
+
+    @media screen and (max-width: $breakpoint-sm)  {
         font-size: 1rem;
     }
 }
 
 .wrapper-contact__image {
     margin: 0 40px;
-    width: 200px;
+    height: fit-content;
+    max-width: 100%;
+
     @media screen and (max-width: $breakpoint-lg)  {
         margin: 0;
     }
 
     @media screen and (max-width: $breakpoint-md)  {
-        margin: 20px;
+        margin: 0 auto;
+        padding-top: 50px;
     }
 }
 
@@ -85,5 +96,10 @@
     height: 100px;
     position: fixed;
     right: 0;
-    width: 100px;
+    width: 150px;
+
+    @media screen and (max-width: $breakpoint-sm)  {
+        height: 70px;
+        width: 100px;
+    }
 }

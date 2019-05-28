@@ -5,10 +5,6 @@
 .introduction {
     padding: 50px 30px 0;
 
-    @media screen and (max-width: $breakpoint-xl)  {
-        padding: 30px 20px 0; 
-    } 
-
     @media screen and (max-width: $breakpoint-lg)  {
         padding: 10px;
     }
@@ -25,7 +21,6 @@
     text-transform:capitalize;
 
     @media screen and (max-width: $breakpoint-md)  {
-        font-size: 1.8rem;
         text-align: center;
     }
 }
@@ -37,6 +32,11 @@
     width: 80%;
 
     @media screen and (max-width: $breakpoint-md)  {
+        text-align: center;
+        width: 100%;
+    }
+
+    @media screen and (max-width: $breakpoint-sm)  {
         font-size: 1.1rem;
         text-align: center;
         width: 100%;
@@ -51,9 +51,7 @@
     text-align: center;
 
     @media screen and (max-width: $breakpoint-md)  {
-        font-size: 1.3rem;
         text-align: center;
-        width: 100%;
     }
 }
 
@@ -78,10 +76,6 @@
 .column {
     padding: 0 60px;
     width: 50%;
-
-    @media screen and (max-width: $breakpoint-xl)  {
-        padding-bottom: 20;
-    } 
 
     @media screen and (max-width: $breakpoint-lg)  {
         padding: 10px;
@@ -118,7 +112,7 @@
         text-transform: uppercase;
     }
     
-    @media screen and (max-width: $breakpoint-md)  {
+    @media screen and (max-width: $breakpoint-sm)  {
         font-size: 1.1rem;
     }
 }
