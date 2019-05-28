@@ -25,8 +25,8 @@
     font-size: 1.3rem;
     text-align: center;
 
-    @media screen and (max-width: $breakpoint-md)  {
-        font-size: 1rem;
+    @media screen and (max-width: $breakpoint-sm)  {
+        font-size: 1.1rem;
     }
 }
 
@@ -51,6 +51,14 @@
     display: block;
     margin: 0 auto;
     max-width: 60%;
+
+    @media screen and (max-width: $breakpoint-md)  {
+        max-width: 40%;
+    }
+
+    @media screen and (max-width: $breakpoint-sm)  {
+        max-width: 60%;
+    }
 }
 
 .wrapper-description__title {
@@ -58,10 +66,6 @@
     font-family: $font-primary;
     font-size: 1.5rem;
     text-transform: capitalize;
-
-    @media screen and (max-width: $breakpoint-lg)  {
-        font-size: 1.3rem;
-    }
 
     @media screen and (max-width: $breakpoint-md)  {
         text-align: center;
@@ -72,12 +76,12 @@
     color: $blue;
     font-size: 1.2rem;
     margin-bottom: 30px;     
-    
-    @media screen and (max-width: $breakpoint-lg)  {
-        font-size: 1rem;
-    }
 
     @media screen and (max-width: $breakpoint-md)  {
         text-align: center;
+    }
+
+    @media screen and (max-width: $breakpoint-sm)  {
+        font-size: 1.1rem;
     }
 }
