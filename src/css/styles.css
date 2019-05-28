@@ -20,6 +20,7 @@ ul {
     padding-top: 60px; }
   50% {
     padding-top: 30px; } }
+
 .head-util {
   background-color: #ff8f00;
   padding: 10px; }
@@ -35,6 +36,7 @@ ul {
 .link-pl {
   color: white;
   font-size: 1rem;
+  text-transform: capitalize;
   transition: ease-in-out .5s;
   padding: 10px; }
   .link-pl:hover {
@@ -495,5 +497,3 @@ ul {
   position: fixed;
   right: 0;
   width: 100px; }
-
-/*# sourceMappingURL=styles.css.map */
