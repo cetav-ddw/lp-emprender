@@ -6,6 +6,7 @@
 
     @media screen and (max-width: $breakpoint-lg)  {
         padding-bottom: 30px;
+        height: 70vh;
     }
 
     @media screen and (max-width: $breakpoint-md)  {
@@ -18,7 +19,7 @@
     @media screen and (max-width: $breakpoint-sm)  {
         background: none;
         height: 90vh;
-        margin-bottom: 50px;
+        margin-bottom: 65px;
         padding: 0;
     }
 }
@@ -27,7 +28,7 @@
     display: flex;
     justify-content: space-around;
     position: relative;
-    top: 25%; 
+    top: 30%; 
 
     @media screen and (max-width: $breakpoint-md)  {
         flex-direction: column;
