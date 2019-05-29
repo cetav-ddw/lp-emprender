@@ -19,6 +19,11 @@
     font-size: 3rem;
     margin-bottom: 0;
     text-align: center;
+
+    @media screen and (max-width: $breakpoint-md)  {
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+    }
 }
 
 .programs__paragraph {
