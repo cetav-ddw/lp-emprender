@@ -18,7 +18,6 @@
     color: $orange;
     font-family: $font-primary;
     font-size: 2rem;
-    text-transform:capitalize;
 
     @media screen and (max-width: $breakpoint-md)  {
         text-align: center;

@@ -20,6 +20,7 @@ ul {
     padding-top: 60px; }
   50% {
     padding-top: 30px; } }
+
 .bubbles-ui:nth-child(1) {
   width: 15vw;
   height: 300px;
@@ -44,6 +45,7 @@ ul {
   100% {
     top: 55%;
     transform: rotate(0deg); } }
+
 .bubbles-ui:nth-child(2) {
   width: 20vw;
   height: 300px;
@@ -65,6 +67,7 @@ ul {
     top: 53%; }
   100% {
     top: 55%; } }
+
 .bubbles-ui:nth-child(3) {
   width: 15vw;
   height: 200px;
@@ -90,6 +93,7 @@ ul {
   100% {
     top: 25%;
     transform: rotate(0deg); } }
+
 .bubbles-ui:nth-child(4) {
   width: 5vw;
   height: 100px;
@@ -115,6 +119,7 @@ ul {
   100% {
     top: 30%;
     transform: rotate(0deg); } }
+
 .bubbles-ui:nth-child(5) {
   width: 5vw;
   height: 80px;
@@ -140,6 +145,7 @@ ul {
   100% {
     top: 70%;
     transform: rotate(0deg); } }
+
 .bubbles-ui:nth-child(6) {
   width: 5vw;
   height: 61px;
@@ -165,6 +171,7 @@ ul {
   100% {
     top: 48%;
     transform: rotate(0deg); } }
+
 .bubbles-ui:nth-child(7) {
   width: 5vw;
   height: 50px;
@@ -190,6 +197,7 @@ ul {
   100% {
     top: 25%;
     transform: rotate(0deg); } }
+
 .bubbles-ui:nth-child(8) {
   width: 5vw;
   height: 50px;
@@ -215,6 +223,7 @@ ul {
   100% {
     top: 25%;
     transform: rotate(0deg); } }
+
 .head-util {
   background-color: #ff8f00;
   padding: 10px; }
@@ -491,8 +500,7 @@ ul {
 .introduction__title {
   color: #ff8f00;
   font-family: "Palanquin Dark", sans-serif;
-  font-size: 2rem;
-  text-transform: capitalize; }
+  font-size: 2rem; }
   @media screen and (max-width: 800px) {
     .introduction__title {
       text-align: center; } }
@@ -731,5 +739,3 @@ ul {
     .chatbot__btn {
       height: 70px;
       width: 100px; } }
-
-/*# sourceMappingURL=styles.css.map */
